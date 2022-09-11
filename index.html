@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <!-- Best practice for responsive: media queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div id="calculator">
+      <div id="display">0</div>
+      <div class="row">
+        <div class="button-wrapper">
+          <button class="number button" id="number7">7</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number8">8</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number9">9</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="special button" id="delete">DEL</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper">
+          <button class="number button" id="number4">4</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number5">5</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number6">6</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="operator button" id="add">+</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper">
+          <button class="number button" id="number1">1</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number2">2</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="number button" id="number3">3</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="operator button" id="minus">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper">
+          <button class="button" id="number0">0</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="special button" id="dot">.</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="operator button" id="divide">/</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="operator button" id="times">x</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper">
+          <button class="special dark button" id="clear">C</button>
+        </div>
+        <div class="button-wrapper">
+          <button class="dark operator button" id="equal">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
